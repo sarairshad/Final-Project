@@ -135,10 +135,6 @@ sqrt(vif(lm1))>2 #problem?
 
 table(mydata2$Education)
 
-#hatv <- hatvalues(lm1)
-#hatv[which(hatv>2*(p+1)/n)]
-#mydata2[which(hatv>0.15),]
-
 #organizing the Education variable into 3 categories: basic education, post compulsory, high education
 # Create a copy of the data and modify the Education variable
 mydata2_copy <- mydata2 %>%
